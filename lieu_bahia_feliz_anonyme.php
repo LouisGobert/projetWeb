@@ -10,10 +10,7 @@
     <body>
       <?php require 'inc/header.inc.php'; ?>
 
-      <h1 class="position"><h1>Bahia Feliz</h1>
-
-
-      <div class="inutile">space</div>
+      <h1 class="position">Bahia Feliz</h1>
 
       <main>
         <section class="conteneur_presen_sport">

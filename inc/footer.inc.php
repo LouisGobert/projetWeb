@@ -6,9 +6,9 @@
     <p><a href="https://www.youtube.com/?hl=FR" target="_blank"><img class="image_compte" src="images/reseau/youtube.png" alt="Youtube" title="Redirection sur notre chaine Youtube"></a></p>
   </nav>
   <nav id="footer_conteneur">
-    <p><a href="qui_somme_nous.html" title="Qui sommes-nous ?"><strong>Qui sommes-nous ? </strong></a>|</p>
-    <p><a href="mention.html" title="Voir nos mentions légales"><strong>Mentions légales </strong></a>|</p>
-    <p><a href="contact.html" title="Nous contacter"><strong>Nous contacter </strong></a></p>
+    <p><a href="qui_somme_nous.php" title="Qui sommes-nous ?"><strong>Qui sommes-nous ? </strong></a>|</p>
+    <p><a href="mention.php" title="Voir nos mentions légales"><strong>Mentions légales </strong></a>|</p>
+    <p><a href="contact.php" title="Nous contacter"><strong>Nous contacter </strong></a></p>
   </nav>
   <p id="author">Par <strong>Gobert Louis</strong></p>
 </footer>

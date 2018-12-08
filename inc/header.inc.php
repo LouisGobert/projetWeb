@@ -12,14 +12,14 @@
   
   
   <nav class="navigation_bar">
-    
-    <a href="evenement.html" title="Tous les événements">Evénements <i class="far fa-calendar-alt"></i></a>
-    <a href="lieux.html" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
+    <a href="index.php" title="Retour a l'écran d'acceuil"><i class="fas fa-home"></i></a>
+    <a href="evenement.php" title="Tous les événements">Evénements <i class="far fa-calendar-alt"></i></a>
+    <a href="lieux.php" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
     
 
     <div id="float_right">
       <a href="inscription.php">Inscription <i class="fas fa-user-plus"></i></a>   
-      <a href="connexion.html">Connexion <i class="fas fa-sign-in-alt"></i></a>   
+      <a href="connexion.php">Connexion <i class="fas fa-sign-in-alt"></i></a>   
     </div>
   </nav>
   <div class="inutile">bb</div>

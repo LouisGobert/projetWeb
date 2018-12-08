@@ -22,23 +22,6 @@
           <h2>Nos événements</h2>
         </section>
 
-        <aside class="option_affichage triage">
-          <!-- Les choix d'affichage --> 
-          <form>
-              <label>Trier par <select name="option_affichage">
-                  <option value="date_ante">date antéchronologique</option>
-                  <option value="nb_consultation">popularité</option>
-              </select></label>
-          </form>
-            <form>
-              <label>Afficher <select name="option_affichage">
-                  <option value="individuel">sport individuel</option>
-                  <option value="equipe">sport par équipe</option>
-                  <option value="tous">les deux</option>
-              </select></label>
-          </form>
-        </aside>
-
         <!-- ceci regroupe tout les événements-->
         <section class="conteneur_flex">
 
@@ -135,6 +118,32 @@
 
             </aside>
           </article>
+          <article class="conteneur">
+            <section>
+            <a href="evenement_rampage.php" title="Rampage">
+              <img src="images/sport/vtt_1.jpg" alt="Rampage" class="image">
+              <h3>Rampage</h3>
+
+              <p class="infos_date"><span>NOUVEAU</span><br>26<br>oct</p>
+
+              <h5><img src="images/flag/united-states-of-america-flag-icon-16.png" alt="Drapeau des Etats-Unis"> Utah, États-Unis</h5>
+  
+              </a>
+              <p>
+                <a href="sport_vtt_rampage_membre.php" title="Vélo tout terain"><i class="fas fa-bicycle"></i></a>
+              </p>
+            </section>
+
+            <aside class="infos">
+            <p>
+              <a class="action_sur_evenement" href="mailto:?subject=Rampage&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_rampage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="evenement_rampage.php#infos_rampage" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
+              <a class="action_sur_evenement" href="evenement_rampage.php#map_rampage_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
+              <a class="action_sur_evenement" href="connexion.php" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
+            </p>
+
+            </aside>
+          </article>
         </section>
 
         <!--
@@ -142,13 +151,7 @@
       Séparation événement et lieux
 
         -->
-       <a class="afficher_plus" href="#" title="Afficher plus d'événements">Afficher plus d'événements</a>
-
-        <section class="barre">
-          <h2>Nos lieux</h2>
-        </section>
-
-        <nav class="option_affichage">
+        <aside class="option_affichage triage">
           <!-- Les choix d'affichage --> 
           <form>
               <label>Trier par <select name="option_affichage">
@@ -156,7 +159,22 @@
                   <option value="nb_consultation">popularité</option>
               </select></label>
           </form>
-        </nav>
+
+          <a class="afficher_plus" href="#" title="Afficher plus d'événements">Afficher plus d'événements</a>
+
+          <form>
+            <label>Afficher <select name="option_affichage">
+                <option value="individuel">sport individuel</option>
+                <option value="equipe">sport par équipe</option>
+                <option value="tous">les deux</option>
+            </select></label>
+          </form>
+        </aside>
+
+
+        <section class="barre">
+          <h2>Nos lieux</h2>
+        </section>
 
         <section class="conteneur_flex">
           <article class="conteneur">
@@ -193,7 +211,7 @@
           <article class="conteneur">
             <section>
               <a href="lieu_ferme_libert_membre.php">
-              <img src="images/sport/ferme_libert_1.jpg" alt="Moto Cross" class="image">
+              <img src="images/sport/vtt_2.jpg" alt="Moto Cross" class="image">
               <h3><img src="images/flag/belgium-flag-icon-32.png" alt="Drapeau de la Belgique"> Ferme Libert, Malmedy</h3>
 
               <p class="infos_date">Lieu</p>
@@ -254,7 +272,25 @@
           
         </section>
       
-      <a class="afficher_plus" href="#">Afficher plus de lieux</a>
+      <aside class="option_affichage triage">
+          <!-- Les choix d'affichage --> 
+          <form>
+              <label>Trier par <select name="option_affichage">
+                  <option value="date_ante">date antéchronologique</option>
+                  <option value="nb_consultation">popularité</option>
+              </select></label>
+          </form>
+
+          <a class="afficher_plus" href="#" title="Afficher plus d'événements">Afficher plus d'événements</a>
+          
+          <form>
+            <label>Afficher <select name="option_affichage">
+                <option value="individuel">sport individuel</option>
+                <option value="equipe">sport par équipe</option>
+                <option value="tous">les deux</option>
+            </select></label>
+          </form>
+        </aside>
       
 
       </main>

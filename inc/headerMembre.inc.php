@@ -12,17 +12,17 @@
   
   
   <nav class="navigation_bar">
-    
-    <a href="evenement.html" title="Tous les événements">Evénements <i class="far fa-calendar-alt"></i></a>
-    <a href="lieux.html" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
+    <a href="index.php" title="Retour a l'écran d'acceuil"><i class="fas fa-home"></i></a>
+    <a href="evenement.php" title="Tous les événements">Evénements <i class="far fa-calendar-alt"></i></a>
+    <a href="lieux.php" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
     
 
     <div class="menu-evenement float_right">
-      <a href="profil.html">Gobert L. <i class="fas fa-angle-double-down"></i></a>
+      <a href="profil.php">Gobert L. <i class="fas fa-angle-double-down"></i></a>
       <div class="menu-content">
-        <a href="profil.html">Mon profil <i class="fas fa-user"></i></a><br>
-        <a href="notification.html">Notifications <i class="fas fa-bell"></i></a><br>
-        <a href="index.html">Déconnection <i class="fas fa-power-off"></i></a>
+        <a href="profil.php">Mon profil <i class="fas fa-user"></i></a><br>
+        <a href="notification.php">Notifications <i class="fas fa-bell"></i></a><br>
+        <a href="index.php">Déconnection <i class="fas fa-power-off"></i></a>
       </div>
     </div>
 
