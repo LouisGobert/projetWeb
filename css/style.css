@@ -1,0 +1,1108 @@
+body {
+    font-family:  arial, monospace;
+    background-color: #FFF5EE;
+}
+.commentaire {
+  color: tomato;
+}
+a:focus {
+    outline: 0;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.iframe { /* Enlève les bordure de l'iframe */
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+ /*
+#################################
+#                               #
+#        Partie du Header       #
+#        du menu de navigation  #
+#                               #
+#################################
+*/
+ .main {
+    min-width: 600px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    background-color: rgb(61, 88, 143);
+    color: white;
+    text-align: center;
+    padding: 0.6% 0%;
+    height: 50px;
+ }
+ 
+.main img {
+	padding-left: 10px;
+	float: left;
+	width: 70px;
+} 
+
+
+#title span{
+	padding-left: 20px;
+	padding-right: 20px;
+    font-size: 1.5rem;
+	/*	padding-right: 8%;*/
+}
+
+#title {
+    display: inline-block;
+    float: left;
+	text-align: left;
+	font-size: 0.8rem;
+}
+
+.navigation_bar {
+    background-color: #333;
+    margin-top: 60px;
+    height: 46px;  
+	width: 100%;
+		
+}
+
+.navigation_bar a, .main form{
+    float: left;
+    font-size: 1rem;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    transition: 0.5s;
+}
+
+.main form {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+}
+
+.navigation_bar a {
+    padding: 14px 20px;
+}
+
+.main input[type=text], .ajouter_commentaire input[type=text]{
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 10px 10px;
+    padding-left: 14px;
+    padding: 3px;
+    width: 120px;
+    transition: width 0.5s;
+    box-sizing: border-box;
+    border: black;
+}
+.main input[type=text]:focus {
+    width: 400px;
+}
+
+
+.float_right a, #float_right a{
+    float: right;
+}
+
+.menu-content {
+	margin-top: 45px;
+    margin-bottom: 4px;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    text-align: right;
+    /*right: 19.2%;*/
+    right: 20%;
+    background-color: lightgray;
+    width: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    padding: 4px 4px;
+    transition: 0.3s ease-in;
+    z-index: 1;
+}
+.inutile {
+    visibility: hidden;
+    display: none;
+}
+
+.menu-content a {
+    float: left;
+	color: black;
+}
+
+.menu-evenement:hover .menu-content {
+    visibility: visible;
+    opacity: 1;
+}
+
+nav a:hover {
+	background-color: #778899;
+    color: white;
+    /*font-size: 1.09rem;*/
+}
+
+.inscription input[type=text], .inscription input[type=password], .inscription input[type=email] {
+    width: 49%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(61, 88, 143);;
+    font-size: 17px;
+}
+.inscription input[type=button], .inscription input[type=submit], .inscription input[type=reset], .deja_inscrit {
+	display: block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 0px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    align-self: center;
+}
+
+.inscription input[type=button] {
+	background-color: tomato;
+}
+
+/*Modifier mes suivis*/
+.inscription section {
+    width: 60%;
+    margin: auto;
+}
+
+
+.inscription fieldset {
+    width: 52%;
+    margin: auto;
+    margin-top: 50px;
+}
+.inscription {
+  margin-bottom: 175px;
+}
+
+
+.inscription input[type=reset] {
+    background-color: tomato;
+}
+
+.inscription #numero {
+    width: 15%;
+}
+.inscription #code_postal {
+    width: 20%;
+}
+
+.inscription #commune, .inscription #province {
+    width: 30%;
+}
+/*
+#################################
+#                               #
+#        Partie des images      #
+#           événement           #
+#                               #
+#################################
+*/
+
+.conteneur_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.conteneur_flex  article {
+    width: 30%;
+    min-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.conteneur {
+    position: relative;
+    width: 100%;
+    font-size: 1.3rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+/*
+
+Parti du flex box terminée
+
+*/
+.conteneur:hover .image {
+    opacity: 0.3;
+}
+
+.conteneur:hover .infos {
+    opacity: 1;
+}
+
+.image {
+    opacity: 1; /* opacité de base*/
+    display: block;
+    width: 100%;
+    backface-visibility: hidden;
+    transition:  opacity 0.3s ease-in;
+}
+
+.conteneur a {
+    text-decoration: none;
+    color: white;
+}
+/* Le nom de l'événement*/
+article section h3 {
+    margin: 5px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* La date de l'événement*/
+article section .infos_date {
+    margin: 4px;
+    font-size: 1em;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    color: #F5F5F5;
+    text-align: left;
+    text-shadow: 3px 2px 4px black;
+}
+/*La première ligne de la date*/
+article section .infos_date span {
+	font-size: 1.5rem;
+    font-weight: bold;
+	background-color: tomato;
+}
+
+article section .infos_date::first-line {
+    
+}
+
+/* Le lieux de l'événement*/
+article section h5 {
+    margin: 4px;
+    font-size: 0.9em;
+    opacity: 1;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    color: #F5F5F5;
+    text-align: right;
+    text-shadow: 3px 2px 4px black;
+}
+/* Les sports*/
+article section p {
+    margin: 8px;
+    margin-bottom: 8px;
+}
+
+/*Les sports présents*/ 
+article section i {
+    padding: 0px 5px;
+    transition: font-size 0.3s ease-in-out;
+}
+
+article section i:hover {
+    font-size: 3rem;
+
+}
+
+section .conteneur {
+    background-color: #262626;
+    color: white;
+}
+
+.infos {
+    display: block;
+    opacity: 0; /* opacité de base*/
+    color: white;
+    top: 70%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+    /*Permet de décaler l'élément pour le centrer*/
+    transform: translate(-50%, -50%);
+}
+
+/*Si on suis déja l'événements*/
+.follow {
+    color: tomato;
+}
+.action_sur_evenement {
+    font-size: 1.5rem;
+    padding: 0px 20px;
+    transition: font-size 0.4s ease-in-out;
+}
+
+.action_sur_evenement:hover {
+    font-size: 3rem;
+}
+
+/*
+#################################
+#                               #
+#        Partie des images      #
+#           lieux               #
+#                               #
+#################################
+*/
+
+.maps_mini {
+    top: 1%;
+    left: 1%;
+}
+
+.maps_mini:hover {
+    width: 100%
+}
+
+/*
+#################################
+#                               #
+#        Barre nos événement    #
+#                               #
+#################################
+*/
+.barre, .barre_presentation_sport {
+    background-color: #333;
+    width: 80%;
+    margin-left:  auto;
+    margin-right: auto;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    line-height: 2em;
+    text-align: center;
+ }
+main > section {
+    margin-top: 90px;
+}
+
+ .barre h2, .barre_presentation_sport h2{
+    font-size: 1.2rem;
+    
+    padding: 5px;
+ }
+
+.barre_presentation_sport {
+    width: 50%;
+    margin: auto;
+}
+
+ .barre_presentation_sport h2{
+    margin-top: 0px;
+ }
+
+ .barre_presentation_sport a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+ }
+
+ #vote {
+    background-color: grey;
+    padding: 6px;
+ }
+
+ /*
+#################################
+#                               #
+#        Pagination et afficher #
+#            plus               #
+#                               #
+#################################
+*/
+
+.pagination {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+.pagination a {
+    text-decoration: none;
+    padding: 0px 8px;
+    color: black;
+    transition: 0.2s ease-in;
+}
+
+.pagination a:hover {
+    background-color: lightgrey;
+    border-radius: 50%;
+}
+
+#pageActive {
+    background-color: rgb(61, 88, 143);
+    border-radius: 50%;
+    color: white;
+}
+
+.afficher_plus {
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: block;
+    margin: 5px 44%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    text-align: center;
+    text-decoration: none;
+    transition: margin 0.4s ease-in;
+}
+
+.afficher_plus:hover {
+    margin: 5px 40%;
+}
+
+ /*
+#################################
+#                               #
+#        Option d'affichage     #
+#            ou tri             #
+#                               #
+#################################
+*/
+
+.option_affichage {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    font-size: 1rem;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.option_affichage select {
+    padding: 0px 8px;
+    border-radius: 7px;
+
+    background-color: lightgrey;
+    font-size: 1rem;
+}
+
+.option_affichage select:focus {
+    outline: none;
+}
+
+.option_affichage.triage{
+    width: 350px;
+}
+
+.option_affichage.triage > form {
+    padding-bottom: 5px;
+}
+
+ /*
+#################################
+#                               #
+#        Indique ou l'on se     #
+#       trouve                  #
+#                               #
+#################################
+*/
+
+header .position {
+    background-color: #4682B4;
+    color: white;
+    margin-top: 0px;
+	margin-bottom: 0px;
+    line-height: 2.5rem;
+    text-align: center;
+	font-size: 1.5rem;
+    /*margin: auto;*/
+ }
+
+ /*
+#################################
+#                               #
+#        La page de présentattion#
+# d'un sport                    #
+#                               #
+#################################
+*/
+.conteneur_presen_sport {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    margin: 1px 0px;
+    width: 50%;
+    margin: auto;
+}
+
+.vote{
+    background-color: #333;
+    height: 150px;
+    margin: 0px 10px 0px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.vote p {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.vote p:first-line {
+    color: white;
+}
+
+.valide {
+    color: #DAA520;
+}
+
+
+
+.vote button {
+    background-color: #4682B4;
+    border: none;
+    color: white;
+    padding: 16px 42px;
+    text-decoration: none;
+    margin: 0px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.autre_sport h2 {
+    font-size: 1.1rem;
+}
+
+.autre_sport p a{
+    color: white;
+    font-size: 2rem;
+}
+
+.sport_detail {
+    background-color: #CD853F;
+    flex-basis: calc(100%);
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    width: 100%;
+    height: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.sport_detail h2 {
+    font-size: 1.2rem;
+}
+
+.bckg_grey {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    background-color: #CD853F;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    align-items: center;
+    width: 80%;
+}
+
+.commentaire, .commentaire_lieu{
+    width: 80%;
+    max-height: 300px;
+    color: white;
+    text-align: left;
+    background-color: #333;
+    overflow: auto;
+    padding: 0px 5px;
+    margin: 10px 0px 10px 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+
+}
+.commentaire p, .commentaire_lieu p {
+    display: inline-block;
+    background-color: #778899;
+    padding: 5px;
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+
+.commentaire i, .commentaire_lieu i {
+    transition: 0.8s;
+}
+.commentaire i:hover, .commentaire_lieu i:hover {
+    font-size: 2rem;
+    color: red;
+}
+
+.ajouter_commentaire input[type=text]{
+    position: relative;
+    margin-left: 4px;
+    transition: 0.3s;
+}
+.ajouter_commentaire input[type=text]:focus {
+    width: 99%;
+}
+
+.sport_image {
+    margin-bottom: 20px;
+    width: 48%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.sport_image img {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    width: 100%;
+}
+
+.ajouter_photo {
+    text-align: center;
+    width: 80%;
+} 
+.ajouter_photo > p {
+
+    width: 100%;
+    background-color: rgb(61, 88, 143);
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.afficher_plus_sport{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    text-align: center;
+    margin: 10px 40%;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+    width: 30%;
+    transition: 0.5s;
+}
+
+.afficher_plus_sport:hover {
+    margin: 10px 30%;
+}
+
+.infos_lieu {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    background-color: #333;
+    text-align: left;
+    height: 450px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+.infos_lieu a {
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    font-size: 2rem;
+    color: white;
+    transition: font-size 0.5s;
+}
+
+.infos_lieu a:hover {
+    font-size: 3rem;
+}
+
+.infos_lieu h5 {
+    text-align: center;
+}
+
+.infos_lieu h5 a {
+    padding-right: 10px;
+}
+
+.barre_galerie {
+    background-color: #4682B4;
+    width: 100%;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    line-height: 1em;
+    text-align: center;
+    margin: auto;
+ }
+
+/*
+#################################
+#                               #
+#        La page de présentattion#
+# d'un lieu                     #
+#                               #
+#################################
+*/
+.infos_lieus, .infos_categorie {
+    background-color: #333;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    color: white;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.infos_lieus a {
+    font-size: 2rem;
+    color: white;
+}
+.infos_lieus h2 {
+    text-align: center;
+}
+
+.infos_lieus h3, .infos_categorie h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    background-color: #CD853F;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6)
+}
+.infos_lieus fa-star {
+    padding-bottom: 10px;
+}
+
+.infos_lieus .fa-star {
+    color: #333;
+}
+
+.infos_lieus .valide {
+    color: #FFD700;
+}
+
+.infos_lieus .button_sport {
+    background-color: #4682B4;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 16px 22px;
+    text-decoration: none;
+    margin: 5px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.commentaire_lieu {
+    margin: auto;
+    width: 85%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.adresse_lieu {
+    line-height: 1rem;
+    padding-right: 10px;
+    color: white;
+    text-align: left;
+    background-color: #333;
+    margin-right: 20px;
+}
+
+.adresse_lieu h2{
+    text-align: center;
+    background-color: #333;
+}
+
+.adresse_lieu p {
+    text-align: left;
+    background-color: #333;
+    padding-left: 10px;
+    line-height: 1rem;
+}
+  /*
+#################################
+#                               #
+#        La page de présentattion#
+# d'un événement                #
+#                               #
+#################################
+*/
+.centrage_infos_categorie {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.infos_categorie, .infos_sur_evenement {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    width: auto;
+    max-width: 40%;
+}
+.infos_categorie p {
+    text-align: left;
+    padding: 5px;
+}
+
+.infos_categorie h2 {
+    text-align: center;
+}
+
+.sport_detail span {
+    background-size: 0.8rem;
+    color: darkred;
+    font-weight: bold;
+}
+
+.infos_evenement {
+    background-color: #333;
+    text-align: left;
+    color: white;
+    padding: 5px;
+    height: 440px;
+}
+.infos_sur_evenement h2 {
+    text-align: center;
+}
+
+.infos_sur_evenement {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+}
+
+.infos_categorie.i_rampage {
+    height: 250px;
+    overflow: auto;
+}
+
+.liaison {
+    background-color: #CD853F;
+    padding: 3px;
+}
+  /*
+#################################
+#                               #
+#        LE profil              #
+#                               #
+#################################
+*/
+
+.inscription section li {
+    background-color: #CD853F;
+    padding: 5px;
+    margin: 5px;
+    display: inline;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.inscription section li a {
+    transition: 0.3s ease-in-out;
+}
+
+.inscription .suivi_eve {
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.inscription section li a:hover {
+    font-size: 1.2rem;
+    background-color: tomato;
+}
+
+.inscription #modification input{
+    width: 30%;
+    margin-right: 10px;
+}
+
+.inscription #modification label {
+    color: white;
+    background-color: grey;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.inscription #modification #image { 
+    margin-bottom: 20px;
+}
+
+.inscription #modification input[type=submit] {
+    display: block;
+    margin: auto;
+}
+
+  /*
+#################################
+#                               #
+#        LE contact             #
+#                               #
+#################################
+*/
+.conteneur_contact {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.infos_contact {
+    background-color: #4682B4;
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.infos_contact h4 {
+    padding-bottom: 0px;
+    line-height: 0rem;
+}
+
+.formulaire_contact textarea {
+    width: 100%;
+    min-width: 500px;
+    max-width: 615px;
+}
+
+.formulaire_contact {
+    margin-left: 20px;
+}
+  /*
+#################################
+#                               #
+#        Notification           #
+#                               #
+#################################
+*/
+
+.notification header, .notification article, .notification p {
+    display: inline-block;
+}
+
+.notification a{
+    font-size: 1.2rem;
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+    background-color: #4682B4;
+    line-height: 0.7rem;
+    padding: 0px 5px;
+    border: 3px solid #4682B4;
+    border-radius: 10px;
+    color: white;
+}
+
+.notification a:visited {
+    background-color: white;
+    color: #333;
+}
+
+.notification header {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.notification i {
+    transition: 0.5s;
+}
+.notification i:hover {
+    font-size: 1.8rem;
+    color: tomato;
+}
+
+#nombre_notification {
+    display: inline-block;
+    background-color: tomato;
+    margin-bottom: 5px;
+    padding: 0px 18px;
+    border-radius: 10%;
+}
+
+  /*
+#################################
+#                               #
+#        Mentions               #
+#                               #
+#################################
+*/
+
+#mentions {
+    width: 20%;
+    margin: 20px auto;
+    background-color: #4682B4;
+    color: white;
+    padding: 10px;
+}
+
+#mentions a {
+    text-decoration: underline;
+}
+
+  /*
+#################################
+#                               #
+#        Nombre de vue          #
+#                               #
+#################################
+*/
+
+.nb_vue {
+    background-color: #4682B4;
+    color: white;
+    padding: 25px;
+    width: 270px;
+    margin: 20px auto;
+    border-radius: 35px;
+		
+		
+}
+/*
+#################################
+#                               #
+#        Partie du Footer       #
+#                               #
+#################################
+*/
+footer {
+ 	background-color: #333;
+ 	margin: auto;
+ 	padding-bottom: 5px;
+ 	color: white;
+    width: 50%;
+    min-width: 600px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+ }
+
+#footer_conteneur, #image_conteneur {
+ 	display: flex;
+ 	justify-content: center;
+ }
+.image_compte {
+ 	width: 50px;
+ 	height: 50px;
+ }
+
+#author { 
+    text-align: center; 
+}
+
+footer a {
+	 color: white;
+	 text-decoration: none;
+	 margin: 10px; 
+}
+
+/*
+#################################
+#                               #
+#        Fin du Footer          #
+#                               #
+#################################

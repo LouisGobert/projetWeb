@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>EVENEMENT | BLUECOW®</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    </head>
+
+    <body>
+      <header id="main">
+        <p id="title">BlueCow®</p>
+        <p>Boissons révolutionnaires à base d'<b>oxyde</b> de <b>bi-hydrogène.</b></p>
+      </header>
+      <section class="position">
+        <h1>Nos événements</h1>
+      </section>
+      <nav class="navigation_bar">
+        <a href="index.html" title="Retour a l'écran d'acceuil"><i class="fas fa-home"></i></a>
+        <form>
+          <input type="text" name="recherche" placeholder="Rechercher...">
+        </form>
+
+        <a href="lieux.html" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
+        <!-- Ce qui va flotter a droite --> 
+        <div id="float_right">
+          <a href="connexion.html">Connexion <i class="fas fa-sign-in-alt"></i></a>   
+        </div>
+      </nav>
+
+      <main>
+
+
+
+        <section class="barre">
+          <h2>Evénements</h2>
+        </section>
+
+        <aside class="option_affichage triage">
+          <!-- Les choix d'affichage --> 
+          <form>
+              <label>Trier par <select name="option_affichage">
+                  <option value="date_ante">date antéchronologique</option>
+                  <option value="nb_consultation">popularité</option>
+              </select></label>
+          </form>
+            <form>
+              <label>Afficher <select name="option_affichage">
+                  <option value="individuel">sport individuel</option>
+                  <option value="equipe">sport par équipe</option>
+                  <option value="tous">les deux</option>
+              </select></label>
+          </form>
+        </aside>
+
+        <!-- ceci regroupe tout les événements-->
+        <section class="conteneur_flex">
+
+          <article class="conteneur">
+            <section>
+						<a href="evenement_ampl.html" title="BlueCow® DownHill">
+            <!--Regroupe :
+              - Le nom de l'événement
+              - la date
+              - les sports
+            -->
+              <img src="images/sport/moto_2.jpg" alt="Moto-Cross" class="image">
+              <h3>Championnat AMPL</h3>
+
+              <!--La date-->
+              <p class="infos_date">24<br>avr</p>
+
+              <!--Le lieux -->
+              <h5><img src="images/flag/belgium-flag-icon-16.png" alt="Drapeau de la Belgique"> Luxembourg, Belgique</h5>
+
+              <!--  Liste des sports du disponibles -->
+							</a>
+              <p>
+                <a href="sport_moto_bertrix_membre.html" title="Moto-Cross"><i class="fas fa-motorcycle"></i></a>
+              </p>
+
+            </section>
+
+            <aside class="infos">
+            <p>
+              <a class="action_sur_evenement" href="mailto:?subject=Championnat_AMPL&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_ampl.html" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="evenement_ampl.html#infos_ampl" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
+              <a class="action_sur_evenement" href="evenement_ampl.html#map_ampl_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
+              <a class="action_sur_evenement" href="connexion.html" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
+            </p>
+
+            </aside>
+
+          
+          </article>
+
+          <article class="conteneur">
+            <section>
+							<a href="evenement_transgrandcannaria.html" title="Transgrancanaria">
+              <img src="images/sport/trail_1.jpg" alt="Transgrancanaria" class="image">
+              <h3>Transgrancanaria</h3>
+
+              <p class="infos_date">22<br>fev</p>
+
+              <h5><img src="images/flag/spain-flag-icon-16.png" alt="Drapeau de l'Espagne"> Gran Canaria, Espagne</h5>
+
+							</a>
+              <p>
+                <a href="sport_trail_bahia_membre.html" title="Trail"><i class="fas fa-running"></i></a>
+              </p>
+			
+
+            </section>
+
+            <aside class="infos">
+            <p>
+							
+              <a class="action_sur_evenement" href="mailto:?subject=Transgrancanaria&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_transgrandcannaria.html" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="evenement_transgrandcannaria.html#infos_trans" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
+              <a class="action_sur_evenement" href="evenement_transgrandcannaria.html#map_trans_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
+              <a class="action_sur_evenement" href="connexion.html" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
+            </p>
+            </aside>
+          </article>
+
+          <article class="conteneur">
+            <section>
+            <a href="evenement_rampage.html" title="Rampage">
+              <img src="images/sport/vtt_1.jpg" alt="Rampage" class="image">
+              <h3>Rampage</h3>
+
+              <p class="infos_date"><span>NOUVEAU</span><br>26<br>oct</p>
+
+              <h5><img src="images/flag/united-states-of-america-flag-icon-16.png" alt="Drapeau des Etats-Unis"> Utah, États-Unis</h5>
+	
+							</a>
+              <p>
+								<a href="sport_vtt_rampage_membre.html" title="Vélo tout terain"><i class="fas fa-bicycle"></i></a>
+							</p>
+            </section>
+
+            <aside class="infos">
+            <p>
+              <a class="action_sur_evenement" href="mailto:?subject=Rampage&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_rampage.html" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="evenement_rampage.html#infos_rampage" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
+              <a class="action_sur_evenement" href="evenement_rampage.html#map_rampage_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
+              <a class="action_sur_evenement" href="connexion.html" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
+            </p>
+
+            </aside>
+          </article>
+        </section>
+
+       <a class="afficher_plus" href="#">Afficher plus d'événements</a>
+
+      </main>
+
+      
+      <footer>
+        <div id="image_conteneur">
+          <p><a href="https://www.facebook.com/" target="_blank"><img class="image_compte" src="images/reseau/facebook.png" alt="Facebook" title="Redirection vers notre page Facebook"></a></p>
+          <p><a href="https://twitter.com/?lang=fr" target="_blank"><img class="image_compte" src="images/reseau/twitter.png" alt="Twitter" title="Redirection sur notre page Twitter"></a></p>
+          <p><a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="image_compte" src="images/reseau/instagram.png" alt="Instagram" title="Redirection sur notre page Instagram"></a></p>
+          <p><a href="https://www.youtube.com/?hl=FR" target="_blank"><img class="image_compte" src="images/reseau/youtube.png" alt="Youtube" title="Redirection sur notre chaine Youtube"></a></p>
+        </div>
+        <div id="footer_conteneur">
+          <p><a href="qui_somme_nous.html" title="Qui sommes-nous ?"><strong>Qui sommes-nous ? </strong></a>|</p>
+          <p><a href="mention.html" title="Voir nos mentions légales"><strong>Mentions légales </strong></a>|</p>
+          <p><a href="contact.html" title="Nous contacter"><strong>Nous contacter </strong></a></p>
+        </div>
+        <p id="author">Par <strong>Gobert Louis</strong></p>
+      </footer>
+    </body>
+</html>

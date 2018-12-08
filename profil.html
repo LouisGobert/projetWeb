@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>PROFIL| BLUECOW@</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+    </head>
+
+    <body>
+      <header id="main">
+        <p id="title">BlueCow®</p>
+        <p>Boissons révolutionnaires à base d'<b>oxyde</b> de <b>bi-hydrogène.</b></p>
+      </header>
+      <section class="position">
+        <h1>Mon profil</h1>
+      </section>
+      <nav class="navigation_bar">
+        <a href="indexMembre.html" title="Retour a l'écran d'acceuil"><i class="fas fa-home"></i></a>
+        <form>
+          <input type="text" name="recherche" placeholder="Rechercher...">
+        </form>
+          
+        <a href="evenement.html" title="Tous les événements">Evénements <i class="far fa-calendar-alt"></i></a>
+        <a href="lieux.html" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
+        
+        <!-- Ce qui va flotter a droite --> 
+        <div class="menu-evenement float_right">
+            <a href="profil.html">Gobert L. <i class="fas fa-angle-double-down"></i></a>
+            <div class="menu-content">
+              <a href="notification.html">Notifications <i class="fas fa-bell"></i></a><br>
+              <a href="index.html">Déconnection <i class="fas fa-power-off"></i></a>
+            </div>
+          </div>
+      </nav>
+      
+      <main class="inscription">
+        <form>
+          <fieldset id="modification">
+            <legend>Modifier mes informations</legend>
+
+            <label>Votre nom : Gobert</label><input id="nom" name="nom" type="text" pattern="[a-zA-Zéèàêîâ-]{3,}" placeholder="Modifier par..."><br>
+            <label>Votre prénom : Louis</label><input id="prenom" name="prenom" type="text" pattern="[a-zA-Zéèàêîâ-]{3,}" placeholder="Modifier par..."><br>
+
+            <label>Nouveau mot de passe</label><input id="mdp" name="mdp" type="password" pattern="[a-zA-Zéèàêîâ-]{3,}" placeholder="Modifier par..."><input id="mdpConfirm" name="mdpConfirm" type="password" pattern="[a-zA-Zéèàêîâ-]{3,}" placeholder="Confirmer mot de passe"><br>
+
+            <label>Adresse email : louis.gobert2000@gmail.com</label><input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Modifier par..."><br>
+
+            <label>Ajouter une photo de profil</label><input type="file" name="image" id="image" accept=".jpg, .png, .jpeg"><br>
+          
+            <input type="submit" name="valider" value="Valider"><br>
+
+          </fieldset>
+
+          
+        </form>
+
+        <section>
+            <h2>Modifier mes suivis</h2>
+
+            <section class="suivi_eve">
+              <h3>Mes événements suivis : </h3>
+              <ul>
+                <li><a title="Retirer des suivis">Rampage <i class="fas fa-trash-alt"></i></a></li>
+                <li><a title="Retirer des suivis">Championnat AMPL <i class="fas fa-trash-alt"></i></a></li>
+              </ul>
+            </section>
+
+            <section class="suivi_eve">
+              <h3>Mes lieux suivis : </h3>
+              <ul>
+                <li><a title="Retirer des suivis">Ferme Libert <i class="fas fa-trash-alt"></i></a></li>
+                <li><a title="Retirer des suivis">Bahia Feliz <i class="fas fa-trash-alt"></i></a></li>
+              </ul>
+            </section>
+
+            <section class="suivi_eve">
+              <h3>Mes sport suivis : </h3>
+              <ul>
+                <li><a title="Retirer des suivis">VTT à Bertrix <i class="fas fa-trash-alt"></i></a></li>
+                <li><a title="Retirer des suivis">Trail à Bahia Feliz <i class="fas fa-trash-alt"></i></a></li>
+                <li><a title="Retirer des suivis">Randonnée à Bahia Feliz <i class="fas fa-trash-alt"></i></a></li>
+              </ul>
+            </section>
+
+          </section>
+			</main>
+
+
+
+      <footer>
+        <div id="image_conteneur">
+          <p><a href="https://www.facebook.com/" target="_blank"><img class="image_compte" src="images/reseau/facebook.png" alt="Facebook" title="Redirection vers notre page Facebook"></a></p>
+          <p><a href="https://twitter.com/?lang=fr" target="_blank"><img class="image_compte" src="images/reseau/twitter.png" alt="Twitter" title="Redirection sur notre page Twitter"></a></p>
+          <p><a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="image_compte" src="images/reseau/instagram.png" alt="Instagram" title="Redirection sur notre page Instagram"></a></p>
+          <p><a href="https://www.youtube.com/?hl=FR" target="_blank"><img class="image_compte" src="images/reseau/youtube.png" alt="Youtube" title="Redirection sur notre chaine Youtube"></a></p>
+        </div>
+        <div id="footer_conteneur">
+          <p><a href="qui_somme_nous.html" title="Qui sommes-nous ?"><strong>Qui sommes-nous ? </strong></a>|</p>
+          <p><a href="mention.html" title="Voir nos mentions légales"><strong>Mentions légales </strong></a>|</p>
+          <p><a href="contact.html" title="Nous contacter"><strong>Nous contacter </strong></a></p>
+        </div>
+        <p id="author">Par <strong>Gobert Louis</strong></p>
+      </footer>
+
+      
+    </body>
+</html>
+
+
+
+
+
+
+
+
