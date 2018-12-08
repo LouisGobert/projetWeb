@@ -8,35 +8,10 @@
     </head>
 
     <body>
-      <header id="main">
-        <p id="title">BlueCow®</p>
-        <p>Boissons révolutionnaires à base d'<b>oxyde</b> de <b>bi-hydrogène.</b></p>
-      </header>
 
-      <section class="position">
-        <h1>Transgrancanaria, 20-24/02/2019</h1>
-      </section>
+      <?php require 'inc/headerMembre.inc.php'; ?>
 
-      <nav class="navigation_bar">
-        <a href="indexMembre.html" title="Retour a l'écran d'acceuil"><i class="fas fa-home"></i></a>
-        <form>
-          <input type="text" name="recherche" placeholder="Rechercher..." title="Rechercher un sport, un lieu ou même un événement">
-        </form>
-        
-        <a href="evenement.html" title="Tous les événements">Evénements <i class="far fa-calendar-alt"></i></a>
-        <a href="lieux.html" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
-        <a href="mailto:?subject=Transgrandcannaria&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_transgrandcannaria.html" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
-        <a href="" title="Ne plus suivre l'événement"><i class="far fa-bell-slash"></i></a>
-
-        <div class="menu-evenement float_right">
-          <a href="profil.html">Gobert L. <i class="fas fa-angle-double-down"></i></a>
-          <div class="menu-content">
-            <a href="profil.html">Mon profil <i class="fas fa-user"></i></a><br>
-            <a href="notification.html">Notifications <i class="fas fa-bell"></i></a><br>
-            <a href="index.html">Déconnection <i class="fas fa-power-off"></i></a>
-          </div>
-        </div>
-      </nav>
+      <h1 class="position">Transgrancanaria, 20-24/02/2019</h1>
 
       <div class="inutile">space</div>
 
@@ -91,7 +66,7 @@
 
           <article class="infos_evenement">
             <h2>Lieux liés</h2>
-            <a href="lieu_bahia_feliz_anonyme.html"><p class="liaison">Bahia Feliz, Las Palmas <i class="fas fa-map-pin"></i></p></a>
+            <a href="lieu_bahia_feliz_anonyme.php"><p class="liaison">Bahia Feliz, Las Palmas <i class="fas fa-map-pin"></i></p></a>
             
             <h2>Adresse</h2>
             <p>San Bartolomé de Tirajana 9</p>
@@ -150,19 +125,6 @@
       </main>
 
 
-      <footer>
-        <div id="image_conteneur">
-          <p><a href="https://www.facebook.com/" target="_blank"><img class="image_compte" src="images/reseau/facebook.png" alt="Facebook" title="Redirection vers notre page Facebook"></a></p>
-          <p><a href="https://twitter.com/?lang=fr" target="_blank"><img class="image_compte" src="images/reseau/twitter.png" alt="Twitter" title="Redirection sur notre page Twitter"></a></p>
-          <p><a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="image_compte" src="images/reseau/instagram.png" alt="Instagram" title="Redirection sur notre page Instagram"></a></p>
-          <p><a href="https://www.youtube.com/?hl=FR" target="_blank"><img class="image_compte" src="images/reseau/youtube.png" alt="Youtube" title="Redirection sur notre chaine Youtube"></a></p>
-        </div>
-        <div id="footer_conteneur">
-          <p><a href="qui_somme_nous.html" title="Qui sommes-nous ?"><strong>Qui sommes-nous ? </strong></a>|</p>
-          <p><a href="mention.html" title="Voir nos mentions légales"><strong>Mentions légales </strong></a>|</p>
-          <p><a href="contact.html" title="Nous contacter"><strong>Nous contacter </strong></a></p>
-        </div>
-        <p id="author">Par <strong>Gobert Louis</strong></p>
-      </footer>
+      <?php require 'inc/footer.inc.php'; ?>
     </body>
 </html>

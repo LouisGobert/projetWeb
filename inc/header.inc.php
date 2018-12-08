@@ -1,14 +1,14 @@
 <header class="main">
-			
-	<a href="index.php">
-		<img src="images/reseau/logoBlueCow-small.png" alt="BlueCow®">
-	</a>
-	
+
+  <a href="index.php">
+    <img src="images/reseau/logoBlueCow-small.png" alt="BlueCow®">
+  </a>
+  
   <p id="title"><span>BlueCow®</span> Boissons révolutionnaires à base d'<b>oxyde</b> de <b>bi-hydrogène.</b></p>
 
-	<form>
-		<input type="text" name="recherche" placeholder="Rechercher...">
-	</form>
+  <form>
+    <input type="text" name="recherche" placeholder="Rechercher...">
+  </form>
   
   
   <nav class="navigation_bar">
@@ -24,6 +24,5 @@
   </nav>
   <div class="inutile">bb</div>
 
-  <h1 class="position">Accueil</h1>
 
 </header>

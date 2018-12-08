@@ -141,7 +141,7 @@ a {
     opacity: 1;
 }
 
-nav a:hover {
+.navigation_bar a:hover {
 	background-color: #778899;
     color: white;
     /*font-size: 1.09rem;*/
@@ -517,11 +517,13 @@ main > section {
 #################################
 */
 
-header .position {
+header  + .position {
     background-color: #4682B4;
     color: white;
-    margin-top: 0px;
+    margin-top: 50px;
+    width: 80%;
 	margin-bottom: 0px;
+    margin: 50px auto 0px auto;
     line-height: 2.5rem;
     text-align: center;
 	font-size: 1.5rem;

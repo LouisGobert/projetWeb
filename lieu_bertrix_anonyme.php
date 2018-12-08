@@ -8,31 +8,9 @@
     </head>
 
     <body>
-      <header id="main">
-        <p id="title">BlueCow®</p>
-        <p>Boissons révolutionnaires à base d'<b>oxyde</b> de <b>bi-hydrogène.</b></p>
-      </header>
+      <?php require 'inc/header.inc.php'; ?>
 
-      <section class="position">
-        <h1>Bertrix</h1>
-      </section>
-
-      <nav class="navigation_bar">
-          <a href="index.html" title="Retour a l'écran d'acceuil"><i class="fas fa-home"></i></a>
-          <form>
-            <input type="text" name="recherche" placeholder="Rechercher..." title="Rechercher un sport, un lieu ou même un événement">
-          </form>
-          
-          <a href="evenement.html" title="Tous les événements">Evénements <i class="far fa-calendar-alt"></i></a>
-          <a href="lieux.html" title="Tous les lieux">Lieux <i class="fas fa-map-marker-alt"></i></a>
-          <a href="mailto:?subject=Bertrix&body=http://192.168.128.13/~e180596/EVAL_V1/lieu_bertrix_anonyme.html" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
-          <a href="connexion.html" title="Suivre ce lieu"><i class="far fa-bell"></i></a>
-        
-
-        <div id="float_right">
-          <a href="connexion.html">Connexion <i class="fas fa-sign-in-alt"></i></a>   
-        </div>
-      </nav>
+      <h1 class="position">Bertrix</h1>
 
       <div class="inutile">space</div>
 
@@ -58,10 +36,10 @@
                 <i class="fas fa-star valide"></i>
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
-                <a class="button_sport" href="sport_moto_bertrix_membre.html" title="Visualiser en detail ce sport">Moto-cross</a>
+                <a class="button_sport" href="sport_moto_bertrix_membre.php" title="Visualiser en detail ce sport">Moto-cross</a>
               </h3>
               <h3>Championnat AMPL
-                <a class="button_sport" href="evenement_ampl.html" title="Visualiser en detail ce sport">Voir la page</a>
+                <a class="button_sport" href="evenement_ampl.php" title="Visualiser en detail ce sport">Voir la page</a>
               </h3>
           </article>
           <article id="map_bertrix">
@@ -111,19 +89,6 @@
         </section>
       </main>
 
-      <footer>
-        <div id="image_conteneur">
-          <p><a href="https://www.facebook.com/" target="_blank"><img class="image_compte" src="images/reseau/facebook.png" alt="Facebook" title="Redirection vers notre page Facebook"></a></p>
-          <p><a href="https://twitter.com/?lang=fr" target="_blank"><img class="image_compte" src="images/reseau/twitter.png" alt="Twitter" title="Redirection sur notre page Twitter"></a></p>
-          <p><a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="image_compte" src="images/reseau/instagram.png" alt="Instagram" title="Redirection sur notre page Instagram"></a></p>
-          <p><a href="https://www.youtube.com/?hl=FR" target="_blank"><img class="image_compte" src="images/reseau/youtube.png" alt="Youtube" title="Redirection sur notre chaine Youtube"></a></p>
-        </div>
-        <div id="footer_conteneur">
-          <p><a href="qui_somme_nous.html" title="Qui sommes-nous ?"><strong>Qui sommes-nous ? </strong></a>|</p>
-          <p><a href="mention.html" title="Voir nos mentions légales"><strong>Mentions légales </strong></a>|</p>
-          <p><a href="contact.html" title="Nous contacter"><strong>Nous contacter </strong></a></p>
-        </div>
-        <p id="author">Par <strong>Gobert Louis</strong></p>
-      </footer>
+      <?php require 'inc/footer.inc.php'; ?>
     </body>
 </html>
