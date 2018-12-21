@@ -10,22 +10,16 @@
     <body>
       <?php require 'inc/header.inc.php'; ?>
       <h1 class="position">Nos lieux</h1>
+
+      <article class="ajouter_un_lieu">
+        <a href="formulaire_ajout_lieu.php">Ajouter un lieu</a>
+      </article>
      
       <main>
 
         <section class="barre">
           <h2>Lieux</h2>
         </section>
-
-        <nav class="option_affichage">
-          <!-- Les choix d'affichage --> 
-          <form>
-              <label>Trier par <select name="option_affichage">
-                  <option value="date_ante">date antéchronologique</option>
-                  <option value="nb_consultation">popularité</option>
-              </select></label>
-          </form>
-        </nav>
         
         <section class="conteneur_flex">
           <article class="conteneur">
@@ -50,7 +44,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Bertrix&body=http://192.168.128.13/~e180596/EVAL_V1/lieu_bertrix_anonyme.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="lieu_bertrix_anonyme.php#infos_bertrix" title="Information sur le lieux"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="lieu_bertrix_anonyme.php#map_bertrix" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre ce lieu"><i class="far fa-calendar-plus"></i></a>
@@ -82,7 +76,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Ferme_Libert&body=http://192.168.128.13/~e180596/EVAL_V1/lieu_ferme_libert_membre.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="lieu_ferme_libert_membre.php#infos_libert" title="Information sur le lieux"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="lieu_ferme_libert_membre.php#map_libert" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre ce lieu"><i class="far fa-calendar-plus"></i></a>
@@ -113,7 +107,7 @@
             <aside class="infos">
             <p>
 
-              <a class="action_sur_evenement" href="mailto:?subject=Bahia_Feliz&body=http://192.168.128.13/~e180596/EVAL_V1/lieu_bahia_feliz_anonyme.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="lieu_bahia_feliz_anonyme.php#infos_bahia" title="Information sur le lieux"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="lieu_bahia_feliz_anonyme.php#map_bahia" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre ce lieu"><i class="far fa-calendar-plus"></i></a>
@@ -122,7 +116,31 @@
           </article>
           
         </section>
-      <a class="afficher_plus" href="#">Afficher plus de lieux</a>
+
+      <aside class="option_affichage triage">
+        <!-- Les choix d'affichage --> 
+        <form>
+          <label>Trier par 
+            <select name="option_affichage">
+              <option value="date_ante">date antéchronologique</option>
+              <option value="nb_consultation">popularité</option>
+            </select>
+          </label>
+        </form>
+
+        <a class="afficher_plus" href="#" title="Afficher plus d'événements">Afficher plus d'événements</a>
+
+        <form>
+        <label>Afficher 
+          <select name="option_affichage">
+            <option value="individuel">sport individuel</option>
+            <option value="equipe">sport par équipe</option>
+            <option value="tous">les deux</option>
+          </select>
+        </label>
+        </form>
+          
+      </aside>
     
       </main>
 

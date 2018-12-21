@@ -43,7 +43,7 @@
               </h3>
           </article>
           <article id="map_bertrix">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1108345.2238087445!2d4.758506376309303!3d49.75363930645425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47ea80f428a1d7a7%3A0xb961558bf099a136!2sRue+de+Bl%C3%A9zy+37-3%2C+6880+Bertrix!3m2!1d49.8552702!2d5.2621708!5e0!3m2!1sfr!2sbe!4v1542999426837" width="850" height="450" style="border:0" allowfullscreen></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1108345.2238087445!2d4.758506376309303!3d49.75363930645425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47ea80f428a1d7a7%3A0xb961558bf099a136!2sRue+de+Bl%C3%A9zy+37-3%2C+6880+Bertrix!3m2!1d49.8552702!2d5.2621708!5e0!3m2!1sfr!2sbe!4v1542999426837" width="800" height="450" style="border:0" allowfullscreen></iframe>
           </article>
         
           <section class="barre_galerie">

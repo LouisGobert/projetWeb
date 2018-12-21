@@ -12,7 +12,6 @@
 
       <h1 class="position">Le moto-cross à Bertrix</h1>
 
-      <div class="inutile">space</div>
 
       <main>
         <section class="conteneur_presen_sport">
@@ -36,8 +35,11 @@
           <section class="barre_galerie">
             <h2>Galerie</h2>
           </section>
+          
           <aside class="ajouter_photo">
-            <p>Ajouter une photo</p>
+            <a href="formulaire_ajout_photo.php">
+              <p>Ajouter une photo</p>
+            </a>
           </aside>
 
           <article class="sport_image">

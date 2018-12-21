@@ -143,7 +143,6 @@ a {
 .navigation_bar a:hover {
 	background-color: #778899;
     color: white;
-    /*font-size: 1.09rem;*/
 }
 
 .inscription input[type=text], .inscription input[type=password], .inscription input[type=email] {
@@ -462,7 +461,7 @@ section .conteneur {
 .option_affichage {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
     width: 80%;
     margin: auto;
@@ -481,6 +480,7 @@ section .conteneur {
     padding-top: 8px;
     width: 200px;
     padding: 5px;
+    margin: 0px 10px;
     background-color: grey;
     overflow: hidden;
 }
@@ -489,7 +489,7 @@ section .conteneur {
     display: block;
     background-color: grey;
     color: white;
-    padding: 12px 4px;
+    padding: 12px 10px;
     text-align: center;
     text-decoration: none;
     transition: background-color 0.4s ease-in;
@@ -658,7 +658,7 @@ header  + .position {
     text-align: center;
     width: 80%;
 } 
-.ajouter_photo > p {
+.ajouter_photo a p {
 
     width: 100%;
     background-color: rgb(61, 88, 143);
@@ -968,7 +968,87 @@ header  + .position {
 .formulaire_contact {
     margin-left: 20px;
 }
-  /*
+
+/*
+#################################
+#                               #
+#        Partie du formulaire   #
+#        ajout photo            #
+#################################
+*/
+
+.conteneur_ajout_photo {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+
+.infos_ajout_photo {
+    flex-basis: calc(50% - 20px);
+    margin: 10px;
+    background-color: #CD853F;
+    line-height: 2.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.block_ajout_photo {
+    background-color: #CD853F;
+    padding: 10px;
+    flex-basis: calc(100% - 10px);
+
+}
+
+/*
+#################################
+#                               #
+#        Partie du formulaire   #
+#        ajout lieux            #
+#################################
+*/
+
+.ajouter_un_lieu {
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+    background-color: #4682B4;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+}
+
+.conteneur_ajout_lieu {
+    width: 80%;
+    margin: auto;
+}
+
+.conteneur_ajout_lieu input {
+    margin: 10px auto;
+    width: 32%;
+    height: 20px;
+}
+
+.conteneur_ajout_lieu textarea {
+    width: 100%;
+}
+
+.conteneur_ajout_lieu input[type=submit] {
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    display: block;
+    margin: auto;
+}
+
+.conteneur_ajout_lieu input[type=radio], .conteneur_ajout_lieu input[type=date] {
+    width: auto;
+}
+
+
+/*
 #################################
 #                               #
 #        Notification           #
@@ -985,7 +1065,7 @@ header  + .position {
     display: block;
     margin: 20px auto;
     width: 50%;
-    background-color: #4682B4;
+    background-color: # 4682B4;
     line-height: 0.7rem;
     padding: 0px 5px;
     border: 3px solid #4682B4;
@@ -1070,7 +1150,7 @@ footer {
     margin-top: 10px;
  	padding-bottom: 5px;
  	color: white;
-    width: 50%;
+    width: 80%;
     min-width: 600px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
  }
@@ -1097,6 +1177,64 @@ footer a {
 /*
 #################################
 #                               #
-#        Fin du Footer          #
+#        Media queries          #
 #                               #
 #################################
+*/
+
+@media screen and (max-width: 800px) { 
+
+    .main {
+        width: 100%;
+    }
+
+    header  + .position {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .barre {
+        width: 100%;
+    }
+
+    .conteneur_flex {
+        width: 100%;
+    }
+
+    .conteneur_flex article {
+        width: 40%;
+    }
+
+    .main input[type=text]:focus {
+        width: 120px;
+    }
+
+    #mentions {
+        width: 80%;
+    }
+
+    .conteneur_contact {
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sport_image {
+        width: 45%;
+    }
+
+    .menu-content {
+        right: 1%;
+    }
+
+    .infos_lieu {
+        height: auto;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+
+}

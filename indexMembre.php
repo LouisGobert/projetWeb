@@ -64,7 +64,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Championnat_AMPL&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_ampl.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="evenement_ampl.php#infos_ampl" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="evenement_ampl.php#map_ampl_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
@@ -96,7 +96,7 @@
             <aside class="infos">
             <p>
               
-              <a class="action_sur_evenement" href="mailto:?subject=Transgrancanaria&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_transgrandcannaria.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="evenement_transgrandcannaria.php#infos_trans" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="evenement_transgrandcannaria.php#map_trans_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
@@ -122,7 +122,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Rampage&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_rampage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="evenement_rampage.php#infos_rampage" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="evenement_rampage.php#map_rampage_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
@@ -175,7 +175,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Bertrix&body=http://192.168.128.13/~e180596/EVAL_V1/lieu_bertrix_anonyme.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="lieu_bertrix_anonyme.php#infos_bertrix" title="Information sur le lieux"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="lieu_bertrix_anonyme.php#map_bertrix" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre ce lieu"><i class="far fa-calendar-plus"></i></a>
@@ -207,7 +207,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Ferme_Libert&body=http://192.168.128.13/~e180596/EVAL_V1/lieu_ferme_libert_membre.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="lieu_ferme_libert_membre.php#infos_libert" title="Information sur le lieux"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="lieu_ferme_libert_membre.php#map_libert" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre ce lieu"><i class="far fa-calendar-plus"></i></a>
@@ -238,7 +238,7 @@
             <aside class="infos">
             <p>
 
-              <a class="action_sur_evenement" href="mailto:?subject=Bahia_Feliz&body=http://192.168.128.13/~e180596/EVAL_V1/lieu_bahia_feliz_anonyme.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager le lieux"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="lieu_bahia_feliz_anonyme.php#infos_bahia" title="Information sur le lieux"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="lieu_bahia_feliz_anonyme.php#map_bahia" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre ce lieu"><i class="far fa-calendar-plus"></i></a>

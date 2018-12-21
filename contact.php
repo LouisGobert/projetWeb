@@ -25,6 +25,7 @@
             <h2><strong>Fax</strong></h2>
             <h4>04/361.00.38</h4>
           </article>
+          
           <article class="formulaire_contact">
             <input id="nom" name="nom" type="text" pattern="[a-zA-Zéèàêîâ-]{3,}" required autofocus placeholder="Nom">
             <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required placeholder="Adresse email"><br>
@@ -32,6 +33,7 @@
       
             <input type="submit" name="valider" value="Envoyer"><br>
           </article>
+
         </section>
 			</main>
 

@@ -12,28 +12,15 @@
 
       <h1 class="position">Nos événements</h1>
 
+      <article class="ajouter_un_lieu">
+        <a href="formulaire_ajout_evenement.php">Ajouter un événement</a>
+      </article>
+
       <main>
 
         <section class="barre">
           <h2>Evénements</h2>
         </section>
-
-        <aside class="option_affichage triage">
-          <!-- Les choix d'affichage --> 
-          <form>
-              <label>Trier par <select name="option_affichage">
-                  <option value="date_ante">date antéchronologique</option>
-                  <option value="nb_consultation">popularité</option>
-              </select></label>
-          </form>
-            <form>
-              <label>Afficher <select name="option_affichage">
-                  <option value="individuel">sport individuel</option>
-                  <option value="equipe">sport par équipe</option>
-                  <option value="tous">les deux</option>
-              </select></label>
-          </form>
-        </aside>
 
         <!-- ceci regroupe tout les événements-->
         <section class="conteneur_flex">
@@ -65,7 +52,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Championnat_AMPL&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_ampl.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="evenement_ampl.php#infos_ampl" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="evenement_ampl.php#map_ampl_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
@@ -97,7 +84,7 @@
             <aside class="infos">
             <p>
 							
-              <a class="action_sur_evenement" href="mailto:?subject=Transgrancanaria&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_transgrandcannaria.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="evenement_transgrandcannaria.php#infos_trans" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="evenement_transgrandcannaria.php#map_trans_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
@@ -123,7 +110,7 @@
 
             <aside class="infos">
             <p>
-              <a class="action_sur_evenement" href="mailto:?subject=Rampage&body=http://192.168.128.13/~e180596/EVAL_V1/evenement_rampage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
+              <a class="action_sur_evenement" href="formulaire_partage.php" title="Partager l'événement"><i class="fas fa-share-alt"></i></a>
               <a class="action_sur_evenement" href="evenement_rampage.php#infos_rampage" title="Informations sur l'événement"><i class="fas fa-info-circle"></i></a>
               <a class="action_sur_evenement" href="evenement_rampage.php#map_rampage_eve" title="Voir sur le plan"><i class="fas fa-map-marked-alt"></i></a>
               <a class="action_sur_evenement" href="connexion.php" title="Suivre l'événement"><i class="far fa-calendar-plus"></i></a>
@@ -133,7 +120,30 @@
           </article>
         </section>
 
-       <a class="afficher_plus" href="#">Afficher plus d'événements</a>
+      <aside class="option_affichage triage">
+        <!-- Les choix d'affichage --> 
+        <form>
+          <label>Trier par 
+            <select name="option_affichage">
+              <option value="date_ante">date antéchronologique</option>
+              <option value="nb_consultation">popularité</option>
+            </select>
+          </label>
+        </form>
+
+        <a class="afficher_plus" href="#" title="Afficher plus d'événements">Afficher plus d'événements</a>
+
+        <form>
+        <label>Afficher 
+          <select name="option_affichage">
+            <option value="individuel">sport individuel</option>
+            <option value="equipe">sport par équipe</option>
+            <option value="tous">les deux</option>
+          </select>
+        </label>
+        </form>
+          
+      </aside>
 
       </main>
 
