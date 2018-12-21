@@ -1065,7 +1065,7 @@ header  + .position {
     display: block;
     margin: 20px auto;
     width: 50%;
-    background-color: # 4682B4;
+    background-color: #4682B4;
     line-height: 0.7rem;
     padding: 0px 5px;
     border: 3px solid #4682B4;
@@ -1221,6 +1221,82 @@ footer a {
 
     .sport_image {
         width: 45%;
+    }
+
+    .menu-content {
+        right: 1%;
+    }
+
+    .infos_lieu {
+        height: auto;
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
+
+@media all and (max-device-width: 480px){ 
+
+    .main {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 0rem;
+    }
+
+    #title span {
+        font-size: 2rem;
+    }
+
+    header  + .position {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .barre {
+        width: 100%;
+    }
+
+    .navigation_bar a {
+        font-size: 1.5rem;
+    }
+
+    .conteneur_flex {
+        width: 100%;
+    }
+
+    .conteneur_flex article {
+        width: 90%;
+    }
+
+    .main form {
+        width: 40%;
+        margin-right: 5%;
+    }
+
+    .main input[type=text] {
+        width: 100%;
+    }
+
+    .main input[type=text]:focus {
+        width: 120px;
+    }
+
+    #mentions {
+        width: 100%;
+    }
+
+    .conteneur_contact {
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .sport_image {
+        width: 95%;
     }
 
     .menu-content {
